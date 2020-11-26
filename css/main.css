@@ -23,13 +23,7 @@ body {
 	border-bottom: 1px solid #505369;
 	height: 100px;
 }
-.header__logo {
-}
 
-.header__nav {
-}
-.header__list {
-}
 .nav {
 	display: flex;
 	flex-wrap: wrap;
@@ -47,7 +41,6 @@ body {
 	text-decoration: underline;
 }
 .header__body {
-	padding: 150px 0;
 	max-width: 915px;
 	margin: 0 auto;
 	text-align: center;
@@ -55,11 +48,10 @@ body {
 	overflow: hidden;
 }
 .header__title {
+	margin: 80px 0px 40px;
 	font: 700 65px/71px "OpenSansBold", sans-serif;
 
 	text-transform: uppercase;
-
-	margin-bottom: 40px;
 }
 .header__subtitle {
 	font-size: 22px;
@@ -68,13 +60,55 @@ body {
 	margin: 0 auto 80px auto;
 }
 .header__btn {
+	padding: 25px 55px;
+}
+.btn {
 	display: inline-block;
 	font: 700 13px "RalewayBold", sans-serif;
 	text-transform: uppercase;
 	color: #fff;
 	background: #e84545;
-	padding: 25px 55px;
+	transition: all 0.3s linear;
 }
-.btn {
+.btn:hover {
+	background: #fff;
+	color: #000;
 }
 /* header */
+
+/* services */
+.services {
+	background: #fff;
+	padding: 110px 0;
+}
+
+.services__row {
+	display: flex;
+	justify-content: space-around;
+
+	flex-wrap: wrap;
+	margin: 0 -30px;
+}
+.services__item {
+	flex: 1 0 33.333%;
+	padding: 0 30px;
+	text-align: center;
+	margin-bottom: 60px;
+}
+.services__item:last-child {
+	margin-bottom: 0;
+}
+.services__img {
+	margin-bottom: 20px;
+}
+.services__title {
+	font-weight: bold;
+	color: #2d3033;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+.services__text {
+	color: #6c7279;
+	line-height: 21px;
+}
+/* /services */
