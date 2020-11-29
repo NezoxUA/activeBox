@@ -9,7 +9,7 @@ body {
 	margin: 0 auto;
 }
 
-/* header */
+/* !header */
 .header {
 	background: url(../img/header_bg.jpg) center no-repeat;
 	background-size: cover;
@@ -74,9 +74,9 @@ body {
 	background: #fff;
 	color: #000;
 }
-/* header */
+/* !/header */
 
-/* services */
+/* !services */
 .services {
 	background: #fff;
 	padding: 110px 0;
@@ -111,4 +111,22 @@ body {
 	color: #6c7279;
 	line-height: 21px;
 }
-/* /services */
+/* !/services */
+
+/* !gallery */
+.gallery {
+}
+.gallery__row {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.gallery__item img {
+	max-width: 100%;
+	height: 100%;
+}
+.gallery__item {
+	flex: 1 1 25%;
+	border: 1px solid #fff;
+}
+/* !/gallery */
