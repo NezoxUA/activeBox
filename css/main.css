@@ -8,6 +8,14 @@ body {
 	max-width: 1170px;
 	margin: 0 auto;
 }
+.btn {
+	display: inline-block;
+	font: 700 13px "RalewayBold", sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+	background: #e84545;
+	transition: all 0.3s linear;
+}
 
 /* !header */
 .header {
@@ -56,21 +64,13 @@ body {
 .header__subtitle {
 	font-size: 22px;
 	line-height: 33px;
-
 	margin: 0 auto 80px auto;
 }
 .header__btn {
 	padding: 25px 55px;
 }
-.btn {
-	display: inline-block;
-	font: 700 13px "RalewayBold", sans-serif;
-	text-transform: uppercase;
-	color: #fff;
-	background: #e84545;
-	transition: all 0.3s linear;
-}
-.btn:hover {
+
+.header__btn:hover {
 	background: #fff;
 	color: #000;
 }
@@ -248,5 +248,69 @@ body {
 	display: inline-block;
 	padding: 20px 80px;
 }
-
+.download__btn:hover {
+	background-color: #53354a;
+}
 /* !/download */
+
+/* !contacts */
+
+.contacts {
+	padding: 65px 0px 100px 0px;
+	background-color: #3a3e64;
+}
+
+.contacts__row {
+	display: flex;
+	justify-content: space-around;
+}
+.contacts__item {
+	flex: 0 0 33.333%;
+}
+.contacts__title {
+	font-weight: bold;
+	font-size: 14px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.contacts__text {
+	text-align: center;
+	color: #afb0bc;
+}
+.contacts__social {
+	display: flex;
+	justify-content: center;
+}
+.contacts__link {
+	display: block;
+	width: 40px;
+	height: 40px;
+	border: 2px solid #fff;
+	margin: 0 8px;
+}
+.contacts__social-f {
+	background: url(../img/contacts-icon/contacts__facebook.png) no-repeat center center;
+}
+.contacts__social-t {
+	background: url(../img/contacts-icon/contacts__instagram.png) no-repeat center center;
+}
+.contacts__social-i {
+	background: url(../img/contacts-icon/contacts__twitter.png) no-repeat center center;
+}
+.contacts__link:hover {
+	background-color: #000;
+}
+/* !/contacts */
+
+/* !footer */
+
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #313454;
+	padding: 25px 0px;
+}
+/* !/footer */
