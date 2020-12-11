@@ -43,8 +43,18 @@ body {
 	height: 100px;
 	left: 0;
 	right: 0;
+	z-index: 3;
 }
-
+.header.fixed {
+	position: fixed;
+	background-color: #31344e;
+	height: auto;
+}
+.header.fixed .header__top {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-bottom: 0;
+}
 .header__top {
 	display: flex;
 	flex-wrap: wrap;
