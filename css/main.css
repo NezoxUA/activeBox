@@ -458,8 +458,20 @@ body {
 @media (max-width: 991px) {
 	.nav {
 		display: none;
+		flex-direction: column;
+		width: 100%;
+		text-align: right;
+		background-color: #31344e;
+		position: absolute;
+		top: 100%;
+		right: 0;
 	}
-
+	.nav__link {
+		padding: 9px 15px;
+	}
+	.nav.show {
+		display: block;
+	}
 	/* burger */
 	.burger {
 		display: block;

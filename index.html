@@ -57,17 +57,17 @@
 					<a href="#"><img src="img/logo.png" alt="activebox"></a>
 				</div>
 				<nav class="header__nav">
-					<ul class="header__list nav">
-						<li class="nav__item"><a href="#" class="nav__link">Features</a></li>
-						<li class="nav__item"><a href="#" class="nav__link">Works</a></li>
-						<li class="nav__item"><a href="#" class="nav__link">Our Team</a></li>
-						<li class="nav__item"><a href="#" class="nav__link">Testimonials</a></li>
-						<li class="nav__item"><a href="#" class="nav__link">Download</a></li>
+					<ul class="header__list nav" id="nav">
+						<li class="nav__item"><a href="#" class="nav__link" data-scroll="#services">Features</a></li>
+						<li class="nav__item"><a href="#" class="nav__link" data-scroll="#works">Works</a></li>
+						<li class="nav__item"><a href="#" class="nav__link" data-scroll="#team">Our Team</a></li>
+						<li class="nav__item"><a href="#" class="nav__link" data-scroll="#reviews">Testimonials</a></li>
+						<li class="nav__item"><a href="#" class="nav__link" data-scroll="#download">Download</a></li>
 					</ul>
 				</nav>
 
 				<!-- !burger -->
-				<button class="burger" type="button">
+				<button class="burger" type="button" id="navToggle">
 					<span class="burger__item">Menu</span>
 				</button>
 				<!-- !/burger-->
@@ -93,7 +93,7 @@
 	<!-- !/intro -->
 
 	<!-- !services -->
-	<section class="services">
+	<section class="services" id="services">
 		<div class="container">
 			<div class="services__row">
 
@@ -169,7 +169,7 @@
 	<!--!/services-->
 
 	<!-- !works -->
-	<div class="works">
+	<div class="works" id="works">
 		<div class="works__item">
 			<img src="img/gallery-img/gallery__img-1.jpg" class="works__photo" alt="">
 			<div class="works__content">
@@ -237,7 +237,7 @@
 	<!-- !/works -->
 
 	<!--!team-->
-	<section class="team">
+	<section class="team" id="team">
 		<div class="container">
 			<div class="team__row">
 
@@ -371,7 +371,7 @@
 	<!--!/team-->
 
 	<!-- !slider -->
-	<section class="reviews">
+	<section class="reviews" id="reviews">
 		<div class="container">
 			<div class="reviews__item">
 				<div class="reviews__photo">
@@ -388,7 +388,7 @@
 	<!-- !/slider -->
 
 	<!-- !download -->
-	<section class="download">
+	<section class="download" id="download">
 		<div class="container">
 			<h3 class="download__title">Are You Ready to Start? Download Now For Free!</h3>
 			<div class="download__text">
@@ -400,10 +400,7 @@
 
 	<!-- !/download -->
 
-	<!-- !contacts -->
 
-	</section>
-	<!-- !/contacts -->
 
 
 	<!-- !footer -->
